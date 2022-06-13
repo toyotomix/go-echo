@@ -6,8 +6,8 @@ Goのdockerテンプレート。
 make build
 ```
 
-## go.mod
-go.modを作成する。`myapp`の部分は適宜変更すること。
+## echo起動,接続
+以下のコマンドを実行し、`localhost:1323`で接続
 ```bash
-docker-compose run --rm app go mod init myapp
+make up
 ```
