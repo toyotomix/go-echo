@@ -11,3 +11,8 @@ make build
 ```bash
 make up
 ```
+
+## 停止
+```bash
+make down
+```
