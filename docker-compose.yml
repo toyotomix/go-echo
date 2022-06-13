@@ -2,11 +2,11 @@ version: "3.9"
 services:
   app:
     ports:
-      - 3000:3000
+      - 1323:1323
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: go-hello-world
+    container_name: echo
     tty: true
     volumes:
-      - ./app:/go/app
+      - ./src:/app

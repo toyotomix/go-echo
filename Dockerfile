@@ -1,3 +1,5 @@
 FROM golang:latest
 
-WORKDIR /go/app/src
+WORKDIR /app
+
+CMD ["go", "run", "server.go"]

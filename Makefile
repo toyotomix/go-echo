@@ -13,7 +13,7 @@ exec:
 	docker-compose exec app /bin/bash
 
 go-run:
-	docker-compose run --rm app go run main.go
+	docker-compose run --rm app go run server.go
 
 go-build:
-	docker-compose run --rm app go build -o ../dist/main main.go
+	docker-compose run --rm app go build server.go
