@@ -19,5 +19,5 @@ func main() {
 
 func hello(c echo.Context) error {
 	name := c.Param("name")
-	return c.String(http.StatusOK, name)
+	return c.String(http.StatusOK, "Hello " + name + "!")
 }
