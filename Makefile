@@ -14,3 +14,6 @@ exec:
 
 go-run:
 	docker-compose run --service-ports --rm app go run server.go
+
+go-version:
+	docker-compose run --rm app go version
